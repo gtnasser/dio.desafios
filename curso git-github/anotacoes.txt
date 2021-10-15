@@ -3,7 +3,7 @@ Download do Git: https://git-scm.com/downloads
 comandos basicos:
 
 clonar repositorio remoto
-$git clone url_repositorio
+$git clone https://github.com/gtnasser/dio.desafio.primeiro-repo.git
 
 adicionar todos os arquivos locais no repositorio local
 $git add .
@@ -11,6 +11,10 @@ $git add .
 verificar status do repositorio local
 $git status
 
+confirmar alteracoes (commit) no repositorio local
+$git commit -m "atualizando anotacoes"
+
 enviar alteracoes locais para repositorio remoto
 sincronizar repositorio remoto 
-$git push origin maingit 
+$git push origin main
+ 
