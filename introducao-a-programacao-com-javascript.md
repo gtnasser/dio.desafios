@@ -1,4 +1,4 @@
-## Bootcamp Eduzz Fullstack Developer<br>introdução a Programação com JavaScript
+## Bootcamp Eduzz Fullstack Developer<br>Introdução a Programação com JavaScript
 
 ### 1 / 3 - Visita na Feira
 - Básico
