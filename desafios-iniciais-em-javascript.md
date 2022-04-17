@@ -37,7 +37,7 @@ for (let i = 0; i < limit; i++) {
 ### 2 / 3 - Distância
 - Básico
 - Princípios Básicos
-- 
+
 #### Desafio
 Duas motos (X e Y) partem em uma mesma direção. A moto X sai com velocidade constante de 60 Km/h e a moto Y sai com velocidade constante de 90 Km/h.
 
