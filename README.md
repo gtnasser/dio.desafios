@@ -1,10 +1,12 @@
 ## Códigos [Digital Innovation One](https://digitalinnovation.one/)
 
 <!-- no-tooltip inline badges -->
+![GitHub License](https://img.shields.io/github/license/gtnasser/dio.desafios)
 ![GitHUb Repo Views](https://visitor-badge.glitch.me/badge?page_id=dio.desafios.visitor-badge) 
 ![GitHub Repo stars](https://badgen.net/github/stars/gtnasser/dio.desafios)
 ![GitHub Language Count](https://img.shields.io/github/languages/count/gtnasser/dio.desafios)
 ![GitHub top language](https://img.shields.io/github/languages/top/gtnasser/dio.desafios?style=falt)
+
 
 ### Descrição
 - Estou compartilhando meus códigos dos desafios propostos nos bootcamps da plataforma da [DIO](https://web.digitalinnovation.one/)
