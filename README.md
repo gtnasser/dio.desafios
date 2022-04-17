@@ -34,16 +34,15 @@
 
 #### Bootcamp [HTML Web Developer](https://www.dio.me/bootcamp/html-web-developer)
 
-Atividade | Conteúdo | Etapas | Finalizado
+Atividade | Conteúdo | Etapas | Concluído
 --- | --- | --- | ---
-Desafio de Código | [Introdução a Programação com JavaScript](introducao-a-programacao-com-javascript.md) | 1 - Visita na Feira<br>2 - Multiplicação Simples<br>3 - Folha de Pagamento | [X]
+Desafio de Código | [Introdução a Programação com JavaScript](introducao-a-programacao-com-javascript.md) | 1 - Visita na Feira<br>2 - Multiplicação Simples<br>3 - Folha de Pagamento | :heavy_check_mark:
+Desafio de Código | [Fundamentos Aritméticos em JavaScript](introducao-a-programacao-com-javascript.md) | 1 - Quantidade de Números Positivos<br>2 - Exibindo Números Pares<br>3 - Análise de Números<br>4 - Contagem de Cédulas<br>5 - Consumo Médio do Automóvel| :white_check_mark:
 
+<!--
 #### Bootcamp [MRV Fullstack Developer](https://web.dio.me/track/mrv-fullstack-developer?tab=path)
-
-Bootcamp [Banco Carrefour Data Engineer](https://web.dio.me/track/banco-carrefour-data-engineer?tab=path)
-
-Bootcamp [MRV Fullstack Developer](https://web.dio.me/track/mrv-fullstack-developer?tab=path)
-
-Bootcamp [Banco Carrefour Data Engineer](https://web.dio.me/track/banco-carrefour-data-engineer?tab=path)
-
+#### Bootcamp [Banco Carrefour Data Engineer](https://web.dio.me/track/banco-carrefour-data-engineer?tab=path)
+#### Bootcamp [MRV Fullstack Developer](https://web.dio.me/track/mrv-fullstack-developer?tab=path)
+#### Bootcamp [Banco Carrefour Data Engineer](https://web.dio.me/track/banco-carrefour-data-engineer?tab=path)
+-->
 
