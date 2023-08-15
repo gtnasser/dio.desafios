@@ -1,4 +1,4 @@
-## Bootcamp Potência Tech powered by iFood | Ciência de Dados<br>Exercite sua Lógica com Desafios de Código em Python
+## Bootcamp Potência Tech Angular Developer - Powered by iFood<br>Exercite sua Lógica com Desafios de Código em Javascript
 
 ### Tempo Estimado de Entrega
 - Básico
@@ -29,12 +29,13 @@ McDonalds<br>10	| O restaurante McDonalds entrega em 10 minutos.
 KFC<br>25 | O restaurante KFC entrega em 25 minutos.
 Burger King<br>5 | O restaurante Burguer King entrega em 5 minutos.
  
-```python
-nomeRestaurante = input()
-tempoEstimadoEntrega = int(input())
+```js
+const nomeRestaurante = gets();
+const tempoEstimadoEntrega = parseInt(gets());
 
-saida = f"O restaurante {nomeRestaurante} entrega em {tempoEstimadoEntrega} minutos."
-print(saida)
+const mensagem = `O restaurante ${nomeRestaurante} entrega em ${tempoEstimadoEntrega} minutos.`
+
+print(mensagem)
 ```
 
 ---
@@ -82,20 +83,17 @@ Entrada | Saída
 15.00<br>3<br>6.00<br>2<br>60.00 | O preço final do pedido é R$ 57.00. Seu troco é R$ 3.00.
 8.00<br>1<br>4.00<br>4<br>50.00 | O preço final do pedido é R$ 24.00. Seu troco é R$ 30.00.
 
-```python
-valorHamburguer = float(input())
-quantidadeHamburguer = int(input())
-valorBebida = float(input())
-quantidadeBebida = int(input())
-valorPago = float(input())
+```js
+const valorHamburguer = parseFloat(gets());
+const quantidadeHamburguer = parseInt(gets());
+const valorBebida = parseFloat(gets());
+const quantidadeBebida = parseInt(gets());
+const valorPago = parseFloat(gets());
 
-precoFinal = valorHamburguer * quantidadeHamburguer + valorBebida * quantidadeBebida
-troco = valorPago - precoFinal
-saida = f"O preço final do pedido é R$ {precoFinal:.2f}. Seu troco é R$ {troco:.2f}."
+let precoFinal = valorHamburguer * quantidadeHamburguer + valorBebida * quantidadeBebida
+let troco = valorPago - precoFinal
 
 print(`O preço final do pedido é R$ ${precoFinal.toFixed(2)}. Seu troco é R$ ${troco.toFixed(2)}.`)
-
-print(saida)
 ```
 
 ---
@@ -131,16 +129,17 @@ Entrada|Saída
 30 | Que pena, você nao ganhou nenhum brinde especial.
 90 | Parabens, você ganhou uma sobremesa gratis!
 
-```python
-valorPedido = float(input())
+```js
+const valorPedido = parseInt(gets());
 
-if valorPedido >= 50:
-  mensagem = "Parabens, você ganhou uma sobremesa gratis!"
-else : 
-  mensagem = "Que pena, você nao ganhou nenhum brinde especial."
+let mensagem = ''
+if (valorPedido >= 50.00) {
+  mensagem = 'Parabens, você ganhou uma sobremesa gratis!'
+} else {
+  mensagem = 'Que pena, você nao ganhou nenhum brinde especial.'
+}
 
-# usando a interpolacao de strings
-print(f"{mensagem}")
+console.log(`${mensagem}`)
 ```
 
 ---
@@ -173,31 +172,35 @@ Entrada | Saída
 2<br>Salada 12.00<br>Suco 10.50<br>20% | Valor total: 18.00
 4<br>X-Burger 19.99<br>Salada 29.99<br>Sushi 61.00<br>Pudim 10.00<br>20% | Valor total: 96.78
 
-```python
-def main():
-    n = int(input())
- 
-    total = 0
-    valor = 0
- 
-    for i in range(1, n + 1):
-        pedido = input().split(" ")
-        nome = pedido[0]
-        valor = float(pedido[1])
-        total += valor
+```js
+function calcularValorTotal(n, pedidos, cupom) {
+  let total = 0;
+  for (let i = 0; i < n; i++) {
+    let [nome, valor] = pedidos[i].split(' ');
+    valor = parseFloat(valor);
+    total += valor;
+  }
+  
+  if (cupom === '10%') {
+    total *= 0.9
+  } else if (cupom === '20%') {
+    total *= 0.8
+  }
 
-    cupom = input()
-	desconto = 0
-    if cupom == "10%":
-        desconto = total * 0.9
-    if desconto == "20%":
-        desconto = total * 0.8
-	total = total - desconto
+  return total.toFixed(2);
+}
 
-    print(f"Valor total: {total:.2f}")
- 
-if __name__ == "__main__":
-    main()
+//Recupera os valores de entrada, criando um array para os pedidos:
+const n = parseInt(gets());
+const pedidos = [];
+for (let i = 0; i < n; i++) {
+  pedidos.push(gets());
+}
+const cupom = gets();
+
+const valorTotal = calcularValorTotal(n, pedidos, cupom)
+
+print(`Valor total: ${valorTotal}`)
 ```
 
 ---
@@ -229,18 +232,21 @@ Entrada | Saída
 1<br>Hamburguer de lentilha<br>300<br>s | Pedido 1: Hamburguer de lentilha (Vegano) - 300 calorias
 2<br>Pizza<br>450<br>n<br>Sushi<br>200<br>n | Pedido 1: Pizza (Nao-vegano) - 450 calorias<br>Pedido 2: Sushi (Nao-vegano) - 200 calorias
 
-```python
-numPedidos = int(input())
+```js
+const numPedidos = parseInt(gets());
 
-for i in range(1, numPedidos + 1):
-  prato = input()
-  calorias = int(input())
-  ehVegano = input()
+for (let i = 1; i <= numPedidos; i++) {
+  const prato = gets();
+  const calorias = parseInt(gets());
+  const ehVegano = gets().toLowerCase() === 's';
 
-  if ehVegano == "s":
-      ehVeganoTexto = "Vegano"
-  else:
-      ehVeganoTexto = "Nao-vegano"
+  ehVeganoTexto = ''
+  if (ehVegano) {
+    ehVeganoTexto = 'Vegano'
+  } else {
+    ehVeganoTexto = 'Nao-vegano'
+  }
 
-  print(f"Pedido {i}: {prato} ({ehVeganoTexto}) - {calorias} calorias")
+  console.log(`Pedido ${i}: ${prato} (${ehVeganoTexto}) - ${calorias} calorias`) 
+}
 ```

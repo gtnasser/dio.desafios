@@ -31,4 +31,9 @@ Atividade | Conteúdo | Etapas | Concluído
 Desafio de Código | [Desafios de Código Iniciais Js - Philips Developer](desafios-de-codigo-iniciais-js.md) | 1 - Quantidade de Números Positivos<br>2 - Fases da Lua<br>3 - Álbum da Copa | :heavy_check_mark:
 Desafio de Código | [Desafios de Código Intermediários Js - Philips Developer](desafios-de-codigo-intermediarios-js.md) | 1 - Idade em dias<br>2 - Ordenando Números Pares e Ímpares<br>3 - Votação para Bobo da Corte | :heavy_check_mark:
 
+#### Bootcamp [Potência Tech Angular Developer - Powered by iFood](https://web.dio.me/track/potencia-tech-angular-developer-powered-ifood)
+Atividade | Conteúdo | Etapas | Concluído
+---|---|---|---
+Desafio de Código | [Exercite sua Lógica com Desafios de Código em Javascript](exercite-logica-desafios-js.md) | Tempo Estimado de Entrega <br>Calcular o Preço Final de um Pedido <br>Ganhe uma Sobremesa Especial! <br>Gerenciamento de Pedidos de Comida Online<br>Identificando Pedidos Veganos <br> | :heavy_check_mark:
+
 
