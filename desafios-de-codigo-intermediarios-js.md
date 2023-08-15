@@ -14,7 +14,7 @@ O arquivo de entrada contém um valor inteiro.
 Imprima a saída conforme exemplo fornecido.
 
 Exemplo de Entrada	Exemplo de Saída
---- | ---
+---|---
 400 | 1 ano(s)<br>1 mes(es)<br>5 dia(s)
 800 | 2 ano(s)2 mes(es)<br>10 dia(s)
 30 | 0 ano(s)<br>1 mes(es)<br>0 dia(s)
@@ -59,7 +59,7 @@ A primeira linha de entrada contém um único inteiro positivo **N** (1 < **N** 
 Exiba todos os valores lidos na entrada segundo a ordem apresentada acima. Cada número deve ser impresso em uma linha, conforme exemplo de saída abaixo.
 
 Exemplo de Entrada | Exemplo de Saída
---- | ---
+---|---
 10<br>4<br>32<br>34<br>543<br>3456<br>654<br>567<br>87<br>6789<br>98/| 4<br>32<br>34<br>98<br>654<br>3456<br>6789<br>567<br>543<br>87
 
 
@@ -111,6 +111,7 @@ A primeira linha da entrada contém um inteiro N (2 ≤ N ≤ 104). As N linhas 
 Seu programa produzirá apenas uma linha contendo o caractere ‘S’ se o jovem Rafael foi o eleito para bobo da corte, ou o caractere ‘N’ caso contrário.
 
 Exemplos de Entrada | Exemplos de Saída
+---|---
 3<br>1000<br>1000<br>1000 | S
 5<br>1<br>2<br>3<br>4<br>5 | N
 

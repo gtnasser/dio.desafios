@@ -36,7 +36,7 @@ console.log(`${quantidadePositivos} valores positivos`);
 
 ---
 
-2 / 3 - Fases da Lua
+### 2 / 3 - Fases da Lua
 - Básico
 - Ad-Hoc
 
