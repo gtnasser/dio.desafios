@@ -18,7 +18,7 @@ Deverá retornar uma mensagem (string) informando ao usuário o tempo estimado d
 
 O restaurante Bar do Zinho entrega em 20 minutos.
 
-*Desafio Bônus:* Utilize interpolação de strings para formatar sua saída ao invés da concatenação de strings tradicional.
+**Desafio Bônus:** Utilize interpolação de strings para formatar sua saída ao invés da concatenação de strings tradicional.
 
 #### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
@@ -117,7 +117,7 @@ Parabens, você ganhou uma sobremesa gratis!
 Caso contrário, a mensagem deve ser:
 Que pena, você nao ganhou nenhum brinde especial.
 
-*Desafio Bônus:* Utilize interpolação de strings para formatar sua saída ao invés da concatenação de strings tradicional.
+**Desafio Bônus:** Utilize interpolação de strings para formatar sua saída ao invés da concatenação de strings tradicional.
 
 #### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
