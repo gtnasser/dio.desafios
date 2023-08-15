@@ -28,7 +28,7 @@ for (let i = 0; i < 6; i++) {
   };
 }
 
-console.log(`${quantidadePositivos} valores positivos`);
+print(`${quantidadePositivos} valores positivos`);
 ```
 
 ---
@@ -57,7 +57,7 @@ let n = parseInt(gets());
 // TODO Inclua a condição de parada adequada. 
 // Dica: note que o contador "i" é incrementado de 2 em 2 (sempre indo para o próximo par).
 for (let i = 2; i<=n ; i+=2) {
-  console.log(i);
+  print(i);
 }
 ```
 
@@ -104,10 +104,10 @@ for (var i = 0; i < 5; i++) {
 
 }
 
-console.log(`${valoresPares} par(es)`);
-console.log(`${valoresImpares} impar(es)`);
-console.log(`${valoresPositivos} positivo(s)`);
-console.log(`${valoresNegativos} negativo(s)`);
+print(`${valoresPares} par(es)`);
+print(`${valoresImpares} impar(es)`);
+print(`${valoresPositivos} positivo(s)`);
+print(`${valoresNegativos} negativo(s)`);
 ```
 
 ---
@@ -143,10 +143,10 @@ function contaNotas(valor){
   // TODO Subtraia de "n" a "quantidadeNotas" multiplicada por seu respectivo "valor" (parâmetro).
   n -= quantidadeNotas * valor;
 
-  console.log(`${quantidadeNotas} nota(s) de R$ ${valor},00`);
+  print(`${quantidadeNotas} nota(s) de R$ ${valor},00`);
 }
 
-console.log(n);
+print(n);
 
 for(let cedula in cedulas){
     if (parseInt(cedulas[cedula])>0) contaNotas(cedulas[cedula]);
@@ -181,6 +181,6 @@ let y = parseFloat(gets());
 // TODO Realize o cálculo do consumo médio do automóvel.
 const consumoMedio = x / y;
 
-console.log(`${consumoMedio.toFixed(3)} km/l`);
+print(`${consumoMedio.toFixed(3)} km/l`);
 ```
 

@@ -24,10 +24,10 @@ for (let i = 0; i < limit; i++) {
     let X = parseInt(line[0]);
     let Y = parseInt(line[1]);
     if (Y == 0) {
-        console.log("divisao impossivel");
+        print("divisao impossivel");
     } else {
         let divisao = parseFloat(X / Y).toFixed(1); 
-        console.log(divisao);
+        print(divisao);
     }
 }
 ```
@@ -59,7 +59,7 @@ Exemplo de Entrada | Exemplo de Saída
 ```js
 let quilometros = parseInt(gets());
 let minutos = quilometros * 60 / (90-60);
-console.log(minutos + " minutos");
+print(minutos + " minutos");
 ```
 
 ---

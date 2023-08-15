@@ -87,8 +87,8 @@ pares.sort((a, b) => a-b)
 impares.sort((a, b) => b-a)
 
 // imprime os valores de cada array, um valor por linha 
-pares.map(m => console.log(m))
-impares.map(m => console.log(m))
+pares.map(m => print(m))
+impares.map(m => print(m))
 ```
 
 ---

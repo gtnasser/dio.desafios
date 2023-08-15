@@ -31,7 +31,7 @@ for (let i = 0; i < 6; i++) {
 
 }
 
-console.log(`${quantidadePositivos} valores positivos`);
+print(`${quantidadePositivos} valores positivos`);
 ```
 
 ---

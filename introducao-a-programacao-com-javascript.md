@@ -24,7 +24,7 @@ let line = gets().split(" ");
 let A = parseInt(line[0]);
 let B = parseInt(line[1]);
 let total = A+B; // Altere o valor da variável com o cálculo esperado
-console.log("X = " + total);
+print("X = " + total);
 ```
 
 ---
@@ -52,7 +52,7 @@ Exemplos de Entrada | Exemplos de Saída
 let valor1 = parseInt(gets());
 let valor2 = parseInt(gets());
 let total = valor1 * valor2; // Altere o valor da variável com o cálculo esperado 
-console.log("PROD = " + total);
+print("PROD = " + total);
 ```
 
 ---
@@ -77,15 +77,11 @@ Exemplos de Entrada | Exemplos de Saída
 6<br>145<br>15.55 | NUMBER = 6<br>SALARY = U$ 2254.75
 
 ```js
-// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print para imprimir a saída (output) de dados.
-// Abaixo segue um exemplo de código que você pode ou não utilizar
-
 let valor1 = parseInt(gets());
 let valor2 = parseInt(gets());
 let valor3 = parseFloat(gets());
 
-//Complete os espaços em branco com uma possível solução para o problema
 let salary = valor2 * valor3;
-console.log("NUMBER = " + valor1);
-console.log("SALARY = U$ " + salary.toFixed(2));
+print("NUMBER = " + valor1);
+print("SALARY = U$ " + salary.toFixed(2));
 ```

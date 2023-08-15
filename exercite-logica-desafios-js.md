@@ -139,7 +139,7 @@ if (valorPedido >= 50.00) {
   mensagem = 'Que pena, você nao ganhou nenhum brinde especial.'
 }
 
-console.log(`${mensagem}`)
+print(`${mensagem}`)
 ```
 
 ---
@@ -247,6 +247,6 @@ for (let i = 1; i <= numPedidos; i++) {
     ehVeganoTexto = 'Nao-vegano'
   }
 
-  console.log(`Pedido ${i}: ${prato} (${ehVeganoTexto}) - ${calorias} calorias`) 
+  print(`Pedido ${i}: ${prato} (${ehVeganoTexto}) - ${calorias} calorias`) 
 }
 ```
