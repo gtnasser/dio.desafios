@@ -93,8 +93,6 @@ precoFinal = valorHamburguer * quantidadeHamburguer + valorBebida * quantidadeBe
 troco = valorPago - precoFinal
 saida = f"O preço final do pedido é R$ {precoFinal:.2f}. Seu troco é R$ {troco:.2f}."
 
-print(`O preço final do pedido é R$ ${precoFinal.toFixed(2)}. Seu troco é R$ ${troco.toFixed(2)}.`)
-
 print(saida)
 ```
 
