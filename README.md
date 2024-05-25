@@ -8,12 +8,29 @@
 
 ### Descrição
 - Estou compartilhando meus códigos dos desafios propostos nos bootcamps da plataforma da [DIO](https://web.dio.me/)
-- O objetivo é que você possa usá-los como referência, para auxiliar no seu aprendizado. 
-- Cada código é apenas uma das várias soluções possíveis, então não copie e cole simplesmente, tente entendê-lo e elaborar a sua solução para cada problema. Aproveite esta oportunidade para realmente aprender.
+- O objetivo é que você possa **usá-los como referência, para auxiliar no seu aprendizado**.
+- Cada código é a minha solução e é apenas uma das várias soluções possíveis, então não copie e cole simplesmente, tente entendê-lo e elabore a sua solução para cada problema. **Aproveite esta oportunidade para realmente aprender**.
 - Se estes códigos te ajudaram de alguma maneira no seu desenvolvimento, marque este repositório com uma estrela :star:
 
 
 ### Códigos dos Desafios
+
+#### Bootcamp [Python AI Backend Developer](https://web.dio.me/track/coding-future-vivo-python-ai-backend-developer)
+Atividade | Conteúdo | Etapas | Concluído
+---|---|---|---
+Desafio de Código | [Dominando os Fundamentos Básicos do Python](vivo-pythonai.md) | 1 - Verificador de Planos de Internet<br>2 - Criando uma Lista de Equipamentos<br>3 - Validando Número de Telefone | :heavy_check_mark:
+Desafio de Projeto | [Contribuindo em um Projeto Open Source no GitHub]() | Objetivo do projeto é colaborar no projeto digitalinnovationone/dio-lab-open-source, executando os passos: cópia para o repositório pessoal, **fork**, modificação e **Pull Request**. | | :heavy_check_mark:
+Desafio de Projeto | [Criando um sistema bancário com Python](https://github.com/gtnasser/desafio-dio-sistema-bancario) | Criar um sistema bancário com as 3 operações: sacar, depositar e visualizar o extrato bancário. | :heavy_check_mark:
+Desafio de Projeto | [Otimizando o Sistema Bancário com Funções Python](https://github.com/gtnasser/desafio-dio-otimizando-sistema-bancario) | Modificar o projeto: Sistema bancário em Python<br>Separar as funções existentes de saque, depósito e extrato em funções.<br>Criar novas funções: Cadastrar e Listar Clientes, Cadastrar e Listar Contas Bancárias. | :heavy_check_mark:
+<!--
+Desafio de Código | [Explorando POO com Python]() |  |
+Desafio de Projeto | [Modelando o Sistema Bancário com POO em Python]() |  |
+Desafio de Projeto | [Desenvolvendo sua Primeira API com FastAPI, Python e Docker]() |  |
+Desafio de Projeto | [Criando uma API com FastAPI utilizando TDD]() |  |
+Desafio de Projeto | [Natural ou Fake Natty? Como vencer na era das IAs Generativas!]() |  |
+-->
+
+
 
 
 #### Bootcamp [Python Data Analytics](https://web.dio.me/track/bootcamp-squadio)
