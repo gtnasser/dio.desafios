@@ -19,7 +19,7 @@
 Atividade | Conteúdo | Etapas | Concluído
 ---|---|---|---
 Desafio de Código | [Dominando os Fundamentos Básicos do Python](vivo-python-ai/fundamentos-basicos-python.md) | 1 - Verificador de Planos de Internet<br>2 - Criando uma Lista de Equipamentos<br>3 - Validando Número de Telefone | :heavy_check_mark:
-Desafio de Projeto | [Contribuindo em um Projeto Open Source no GitHub]() | Objetivo do projeto é colaborar no projeto digitalinnovationone/dio-lab-open-source, executando os passos: cópia para o repositório pessoal, **fork**, modificação e **Pull Request**. | | :heavy_check_mark:
+Desafio de Projeto | [Contribuindo em um Projeto Open Source no GitHub](https://github.com/gtnasser/dio-lab-open-source) | Objetivo do projeto é colaborar no projeto digitalinnovationone/dio-lab-open-source, executando os passos: cópia para o repositório pessoal, **fork**, modificação e **Pull Request**. | | :heavy_check_mark:
 Desafio de Projeto | [Criando um sistema bancário com Python](https://github.com/gtnasser/desafio-dio-sistema-bancario) | Criar um sistema bancário com as 3 operações: sacar, depositar e visualizar o extrato bancário. | :heavy_check_mark:
 Desafio de Projeto | [Otimizando o Sistema Bancário com Funções Python](https://github.com/gtnasser/desafio-dio-otimizando-sistema-bancario) | Modificar o projeto: Sistema bancário em Python<br>Separar as funções existentes de saque, depósito e extrato em funções.<br>Criar novas funções: Cadastrar e Listar Clientes, Cadastrar e Listar Contas Bancárias. | :heavy_check_mark:
 <!--
@@ -46,7 +46,7 @@ Desafio de Projeto | [Processando e Transformando Dados com Power BI](https://gi
 Atividade | Conteúdo | Etapas | Concluído
 ---|---|---|---
 Desafio de Código | [Exercite sua Lógica com Desafios de Código em Python](potencia-tech-ifood/desafios-python.md) | Tempo Estimado de Entrega <br>Calcular o Preço Final de um Pedido <br>Ganhe uma Sobremesa Especial! <br>Gerenciamento de Pedidos de Comida Online<br>Identificando Pedidos Veganos <br> | :heavy_check_mark:
-Desafio de Projeto | [Contribuindo em um Projeto Open Source no GitHub]() | Objetivo do projeto é colaborar no projeto digitalinnovationone/dio-lab-open-source, executando os passos: cópia para o repositório pessoal, **fork**, modificação e **Pull Request**. | | :heavy_check_mark:
+Desafio de Projeto | [Contribuindo em um Projeto Open Source no GitHub](https://github.com/gtnasser/dio-lab-open-source) | Objetivo do projeto é colaborar no projeto digitalinnovationone/dio-lab-open-source, executando os passos: cópia para o repositório pessoal, **fork**, modificação e **Pull Request**. | | :heavy_check_mark:
 Desafio de Projeto | [Criando um sistema bancário com Python](https://github.com/gtnasser/desafio-dio-sistema-bancario) | Criar um sistema bancário com as 3 operações: sacar, depositar e visualizar o extrato bancário. | :heavy_check_mark:
 Desafio de Projeto | [Otimizando o Sistema Bancário com Funções Python](https://github.com/gtnasser/desafio-dio-otimizando-sistema-bancario) | Modificar o projeto: Sistema bancário em Python<br>Separar as funções existentes de saque, depósito e extrato em funções.<br>Criar novas funções: Cadastrar e Listar Clientes, Cadastrar e Listar Contas Bancárias. | :heavy_check_mark:
 <!--
